@@ -1,0 +1,43 @@
+PODS:
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - MaterialComponents/AnimationTiming (81.1.0)
+  - MaterialComponents/Palettes (81.1.0)
+  - MaterialComponents/private/Application (81.1.0)
+  - MaterialComponents/private/Math (81.1.0)
+  - MaterialComponents/TextFields (81.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (81.1.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+
+DEPENDENCIES:
+  - Material (~> 3.1.0)
+  - MaterialComponents/TextFields
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Material
+    - MaterialComponents
+    - MDFInternationalization
+    - Motion
+
+SPEC CHECKSUMS:
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  MaterialComponents: c2045515505992357e210b33cb3ffc3a404a14fd
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+
+PODFILE CHECKSUM: 5887b882e5715ff73609b700a759edd00c9bd297
+
+COCOAPODS: 1.9.3
