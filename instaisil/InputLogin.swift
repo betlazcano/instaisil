@@ -34,7 +34,7 @@ class InputLogin: UIView{
         textField = MDCTextField(frame: CGRect(x: 0, y: -24, width: self.frame.size.width - 50, height: 200))
         textField.placeholder = placeHolder
         textField.text = value
-        textField.placeholder = "Username"
+        
         //Change this properties to change the colors of border around text
         textFieldControllerFloating = MDCTextInputControllerOutlined(textInput: textField)
 

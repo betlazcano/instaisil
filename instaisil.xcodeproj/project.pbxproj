@@ -17,7 +17,6 @@
 		F49FFA58252FB3300090BCF2 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FFA57252FB3300090BCF2 /* Gradient.swift */; };
 		F49FFA5A252FB52E0090BCF2 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */; };
 		F4B198B82533F8B600C421D2 /* InputLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B198B72533F8B600C421D2 /* InputLogin.swift */; };
-		F4B198BA2533FED200C421D2 /* PasswordText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B198B92533FED200C421D2 /* PasswordText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		F49FFA57252FB3300090BCF2 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		F4B198B72533F8B600C421D2 /* InputLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLogin.swift; sourceTree = "<group>"; };
-		F4B198B92533FED200C421D2 /* PasswordText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordText.swift; sourceTree = "<group>"; };
 		F4CD24B12533DBF40086DCA4 /* instaisil-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instaisil-Bridging-Header.h"; sourceTree = "<group>"; };
 		FFD40574FA71D3F931CB222B /* Pods_instaisil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaisil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,7 +80,6 @@
 				38B2C043252AC20600FF3F98 /* Assets.xcassets */,
 				38B2C045252AC20600FF3F98 /* LaunchScreen.storyboard */,
 				38B2C048252AC20600FF3F98 /* Info.plist */,
-				F4B198B92533FED200C421D2 /* PasswordText.swift */,
 				F4CD24B12533DBF40086DCA4 /* instaisil-Bridging-Header.h */,
 			);
 			path = instaisil;
@@ -226,7 +223,6 @@
 				38B2C03D252AC20300FF3F98 /* AppDelegate.swift in Sources */,
 				F49FFA58252FB3300090BCF2 /* Gradient.swift in Sources */,
 				F49FFA5A252FB52E0090BCF2 /* ColorConstant.swift in Sources */,
-				F4B198BA2533FED200C421D2 /* PasswordText.swift in Sources */,
 				F4B198B82533F8B600C421D2 /* InputLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
