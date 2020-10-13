@@ -13,7 +13,7 @@
 		38B2C044252AC20600FF3F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B2C043252AC20600FF3F98 /* Assets.xcassets */; };
 		38B2C047252AC20600FF3F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B2C045252AC20600FF3F98 /* LaunchScreen.storyboard */; };
 		DC69113ECF50EBCDB05D3E90 /* Pods_instaisil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD40574FA71D3F931CB222B /* Pods_instaisil.framework */; };
-		F47F29D02533D99400108316 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F29CF2533D99400108316 /* RoundButton.swift */; };
+		F4067A552536350100E270E3 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4067A542536350100E270E3 /* NewViewController.swift */; };
 		F49FFA58252FB3300090BCF2 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FFA57252FB3300090BCF2 /* Gradient.swift */; };
 		F49FFA5A252FB52E0090BCF2 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */; };
 		F4B198B82533F8B600C421D2 /* InputLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B198B72533F8B600C421D2 /* InputLogin.swift */; };
@@ -29,7 +29,7 @@
 		38B2C048252AC20600FF3F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF872453BB944D2211FBD6B4 /* Pods-instaisil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaisil.debug.xcconfig"; path = "Target Support Files/Pods-instaisil/Pods-instaisil.debug.xcconfig"; sourceTree = "<group>"; };
 		D7B558C1D293AA32CC954F84 /* Pods-instaisil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaisil.release.xcconfig"; path = "Target Support Files/Pods-instaisil/Pods-instaisil.release.xcconfig"; sourceTree = "<group>"; };
-		F47F29CF2533D99400108316 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		F4067A542536350100E270E3 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		F49FFA57252FB3300090BCF2 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		F4B198B72533F8B600C421D2 /* InputLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLogin.swift; sourceTree = "<group>"; };
@@ -72,13 +72,13 @@
 			children = (
 				38B2C03C252AC20300FF3F98 /* AppDelegate.swift */,
 				38B2C03E252AC20300FF3F98 /* ViewController.swift */,
-				F47F29CF2533D99400108316 /* RoundButton.swift */,
 				38B2C040252AC20300FF3F98 /* Main.storyboard */,
 				F4B198B72533F8B600C421D2 /* InputLogin.swift */,
 				F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */,
 				F49FFA57252FB3300090BCF2 /* Gradient.swift */,
 				38B2C043252AC20600FF3F98 /* Assets.xcassets */,
 				38B2C045252AC20600FF3F98 /* LaunchScreen.storyboard */,
+				F4067A542536350100E270E3 /* NewViewController.swift */,
 				38B2C048252AC20600FF3F98 /* Info.plist */,
 				F4CD24B12533DBF40086DCA4 /* instaisil-Bridging-Header.h */,
 			);
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B2C03F252AC20300FF3F98 /* ViewController.swift in Sources */,
-				F47F29D02533D99400108316 /* RoundButton.swift in Sources */,
+				F4067A552536350100E270E3 /* NewViewController.swift in Sources */,
 				38B2C03D252AC20300FF3F98 /* AppDelegate.swift in Sources */,
 				F49FFA58252FB3300090BCF2 /* Gradient.swift in Sources */,
 				F49FFA5A252FB52E0090BCF2 /* ColorConstant.swift in Sources */,
