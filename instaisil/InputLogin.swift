@@ -23,7 +23,7 @@ class InputLogin: UIView{
     override open func draw(_ rect: CGRect) {
         super.draw(rect)
 
-        textField.frame = CGRect(x: 0, y: -24, width: self.frame.size.width - 50, height: 200)
+        textField.frame = CGRect(x: 0, y: -24, width: self.frame.size.width, height: 200)
     }
     open override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,7 +31,7 @@ class InputLogin: UIView{
     }
     func setUpProperty() {
         //Change this properties to change the propperties of text
-        textField = MDCTextField(frame: CGRect(x: 0, y: -24, width: self.frame.size.width - 50, height: 200))
+        textField = MDCTextField(frame: CGRect(x: 0, y: -24, width: self.frame.size.width, height: 200))
         textField.placeholder = placeHolder
         textField.text = value
         
