@@ -10,9 +10,15 @@ import UIKit
 import MaterialComponents.MaterialTextFields
 
 class ViewController: UIViewController {
+    @IBOutlet weak var constraintBottomScroll: NSLayoutConstraint!
+    @IBAction func clickCloseKeyboard(_ sender: Any){
+        self.view.endEditing(true)
+    }
+    
     
     @IBOutlet weak var rounded_button: UIButton!
     @IBOutlet weak var rounded_view: UIView!
+    
     var textController: MDCTextInputControllerOutlined!
     
     override func viewDidLoad() {

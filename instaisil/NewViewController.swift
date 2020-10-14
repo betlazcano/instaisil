@@ -9,6 +9,12 @@
 import UIKit
 
 class NewViewController: UIViewController {
+    @IBOutlet weak var constraintBottomScroll: NSLayoutConstraint!
+    @IBAction func clickCloseKeyboard(_ sender: Any){
+        self.view.endEditing(true)
+    }
+    
+    
     @IBOutlet weak var rounded_forgotpassword: UIView!
     
     @IBOutlet weak var button_forgotpassword: UIButton!
