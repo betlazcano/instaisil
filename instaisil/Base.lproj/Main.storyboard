@@ -16,8 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIq-tM-YhJ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIq-tM-YhJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="S2v-xC-Vd9"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="fx2-Py-OEb"/>
@@ -59,8 +60,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHY-f0-4hW">
-                                        <rect key="frame" x="90" y="193" width="193" height="55"/>
+                                        <rect key="frame" x="112" y="193" width="150" height="55"/>
                                         <color key="backgroundColor" red="0.033511269840000003" green="0.68007808920000001" blue="0.93496876959999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="JWe-jq-Cy4"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <state key="normal" title="Iniciar Sesión">
                                             <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -79,12 +83,11 @@
                                     <constraint firstAttribute="trailing" secondItem="YDY-8D-HFy" secondAttribute="trailing" constant="27" id="PY1-GA-GWI"/>
                                     <constraint firstItem="5RG-tX-CbU" firstAttribute="top" secondItem="cHY-f0-4hW" secondAttribute="bottom" constant="37" id="Sgl-ys-EMH"/>
                                     <constraint firstAttribute="bottom" secondItem="U5Y-Y9-Bwj" secondAttribute="bottom" constant="371" id="aTY-3N-NDI"/>
+                                    <constraint firstItem="cHY-f0-4hW" firstAttribute="centerX" secondItem="OTc-1m-Bj4" secondAttribute="centerX" id="evD-tF-lYy"/>
                                     <constraint firstAttribute="trailing" secondItem="U5Y-Y9-Bwj" secondAttribute="trailing" constant="27" id="ex6-tC-4oX"/>
                                     <constraint firstItem="8gn-ni-gLS" firstAttribute="centerX" secondItem="OTc-1m-Bj4" secondAttribute="centerX" id="fyu-5f-gW1"/>
                                     <constraint firstItem="cHY-f0-4hW" firstAttribute="top" secondItem="YDY-8D-HFy" secondAttribute="bottom" constant="26" id="gTE-2V-e8H"/>
                                     <constraint firstAttribute="bottom" secondItem="8gn-ni-gLS" secondAttribute="bottom" constant="66" id="k5M-eN-AD7"/>
-                                    <constraint firstItem="cHY-f0-4hW" firstAttribute="leading" secondItem="OTc-1m-Bj4" secondAttribute="leading" constant="90" id="rih-yh-aLV"/>
-                                    <constraint firstAttribute="trailing" secondItem="cHY-f0-4hW" secondAttribute="trailing" constant="91" id="ttH-ii-lwG"/>
                                     <constraint firstItem="8gn-ni-gLS" firstAttribute="top" secondItem="5RG-tX-CbU" secondAttribute="bottom" constant="30" id="vYV-nW-qfY"/>
                                     <constraint firstItem="5RG-tX-CbU" firstAttribute="centerX" secondItem="OTc-1m-Bj4" secondAttribute="centerX" id="xVD-u2-nMT"/>
                                     <constraint firstAttribute="bottom" secondItem="cHY-f0-4hW" secondAttribute="bottom" constant="193" id="zty-Xg-f4Y"/>
@@ -104,15 +107,11 @@
                         <constraints>
                             <constraint firstItem="sNl-i2-x8q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68.666666666666686" id="Bae-1c-oi2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OTc-1m-Bj4" secondAttribute="trailing" constant="20" id="HIj-Di-J9S"/>
-                            <constraint firstItem="HIq-tM-YhJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IsM-mp-TLU"/>
                             <constraint firstItem="sNl-i2-x8q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="MwV-10-LWo"/>
-                            <constraint firstItem="HIq-tM-YhJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qaw-b0-kge"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sNl-i2-x8q" secondAttribute="trailing" constant="68.333333333333314" id="c7H-Nk-dCc"/>
                             <constraint firstItem="YzV-ts-ovd" firstAttribute="firstBaseline" secondItem="sNl-i2-x8q" secondAttribute="baseline" constant="42" symbolType="layoutAnchor" id="ctG-3C-C6T"/>
-                            <constraint firstItem="HIq-tM-YhJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="e2z-Pp-XwP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YzV-ts-ovd" secondAttribute="trailing" constant="155" id="epf-WD-kZQ"/>
                             <constraint firstItem="YzV-ts-ovd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rfb-B3-gOS"/>
-                            <constraint firstItem="HIq-tM-YhJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tzl-j9-qdr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OTc-1m-Bj4" secondAttribute="bottom" constant="20" id="wUP-bY-bbS"/>
                             <constraint firstItem="OTc-1m-Bj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xed-Jz-AJJ"/>
                         </constraints>
@@ -120,7 +119,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="oJL-uQ-B9K"/>
                     <connections>
-                        <outlet property="constraintBottomScroll" destination="IsM-mp-TLU" id="x8U-qR-kS6"/>
                         <outlet property="rounded_button" destination="cHY-f0-4hW" id="a6J-y1-VH3"/>
                         <outlet property="rounded_view" destination="OTc-1m-Bj4" id="4ot-c4-QGj"/>
                     </connections>
@@ -142,8 +140,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKq-nH-tPY">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKq-nH-tPY">
                                 <rect key="frame" x="-7" y="-9" width="421" height="745"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="zY3-86-p0T"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="RSS-LG-hMD"/>
@@ -171,8 +170,11 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJc-IY-z6D">
-                                        <rect key="frame" x="35" y="222" width="294" height="58"/>
+                                        <rect key="frame" x="82" y="222" width="200" height="58"/>
                                         <color key="backgroundColor" red="0.033511269840000003" green="0.68007808920000001" blue="0.93496876959999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="u9R-HR-nWW"/>
+                                        </constraints>
                                         <state key="normal" title="Recuperar mi contraseña">
                                             <color key="titleColor" red="0.97962540389999997" green="0.98990052939999995" blue="0.98972862959999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -180,10 +182,10 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
+                                    <constraint firstItem="LJc-IY-z6D" firstAttribute="centerX" secondItem="oZo-Mf-INj" secondAttribute="centerX" id="BSS-Bz-OHm"/>
                                     <constraint firstItem="tEZ-TW-sId" firstAttribute="leading" secondItem="oZo-Mf-INj" secondAttribute="leading" constant="35" id="DKy-i4-UTM"/>
                                     <constraint firstItem="LJc-IY-z6D" firstAttribute="top" secondItem="B7P-Kx-eJf" secondAttribute="bottom" constant="43" id="EuM-kg-TJ8"/>
                                     <constraint firstAttribute="bottom" secondItem="tEZ-TW-sId" secondAttribute="bottom" constant="226" id="Goq-Pi-lbI"/>
-                                    <constraint firstAttribute="trailing" secondItem="LJc-IY-z6D" secondAttribute="trailing" constant="35" id="RsH-Pz-yHk"/>
                                     <constraint firstAttribute="bottom" secondItem="B7P-Kx-eJf" secondAttribute="bottom" constant="146" id="T3m-Ub-wDa"/>
                                     <constraint firstItem="B7P-Kx-eJf" firstAttribute="top" secondItem="tEZ-TW-sId" secondAttribute="bottom" constant="46" id="Uqs-MX-DPl"/>
                                     <constraint firstAttribute="trailing" secondItem="B7P-Kx-eJf" secondAttribute="trailing" constant="35" id="WAn-hb-QSY"/>
@@ -192,7 +194,6 @@
                                     <constraint firstItem="tEZ-TW-sId" firstAttribute="top" secondItem="oZo-Mf-INj" secondAttribute="top" constant="65" id="ht1-uQ-B0j"/>
                                     <constraint firstAttribute="trailing" secondItem="tEZ-TW-sId" secondAttribute="trailing" constant="35" id="mxB-Bc-FAf"/>
                                     <constraint firstAttribute="bottom" secondItem="LJc-IY-z6D" secondAttribute="bottom" constant="45" id="wuF-87-0B1"/>
-                                    <constraint firstItem="LJc-IY-z6D" firstAttribute="leading" secondItem="oZo-Mf-INj" secondAttribute="leading" constant="35" id="zGE-gb-zk2"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recuperar Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lD0-TS-uIP">
@@ -222,14 +223,10 @@
                             <constraint firstItem="YcW-RB-yUg" firstAttribute="leading" secondItem="ZPI-KT-XF0" secondAttribute="leading" constant="87" id="KxE-md-nGE"/>
                             <constraint firstItem="ZPI-KT-XF0" firstAttribute="trailing" secondItem="crs-gG-joN" secondAttribute="trailing" constant="30" id="R5u-m7-oX0"/>
                             <constraint firstItem="oZo-Mf-INj" firstAttribute="top" secondItem="crs-gG-joN" secondAttribute="bottom" constant="61" id="Rbw-w0-6gx"/>
-                            <constraint firstItem="fKq-nH-tPY" firstAttribute="bottom" secondItem="ZPI-KT-XF0" secondAttribute="bottom" id="Tdo-Zi-hLa"/>
                             <constraint firstItem="lD0-TS-uIP" firstAttribute="leading" secondItem="ZPI-KT-XF0" secondAttribute="leading" constant="25" id="aPf-0y-Dus"/>
-                            <constraint firstItem="fKq-nH-tPY" firstAttribute="leading" secondItem="PU2-kx-5Mc" secondAttribute="leading" id="b0z-Cz-su1"/>
-                            <constraint firstItem="fKq-nH-tPY" firstAttribute="trailing" secondItem="ZPI-KT-XF0" secondAttribute="trailing" id="fBe-bo-93I"/>
                             <constraint firstItem="ZPI-KT-XF0" firstAttribute="bottom" secondItem="lD0-TS-uIP" secondAttribute="bottom" constant="466" id="iYE-Fz-SKX"/>
                             <constraint firstItem="ZPI-KT-XF0" firstAttribute="bottom" secondItem="oZo-Mf-INj" secondAttribute="bottom" constant="25" id="j2u-qg-JeG"/>
                             <constraint firstItem="ZPI-KT-XF0" firstAttribute="trailing" secondItem="oZo-Mf-INj" secondAttribute="trailing" constant="25" id="kQ0-j5-ZBa"/>
-                            <constraint firstItem="fKq-nH-tPY" firstAttribute="top" secondItem="PU2-kx-5Mc" secondAttribute="top" id="n4b-kC-5Lw"/>
                             <constraint firstItem="ZPI-KT-XF0" firstAttribute="trailing" secondItem="lD0-TS-uIP" secondAttribute="trailing" constant="30" id="oIL-5u-T0m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZPI-KT-XF0"/>
@@ -237,7 +234,6 @@
                     <navigationItem key="navigationItem" title="Olvidé mi contraseña" id="WLd-Fg-OTB"/>
                     <connections>
                         <outlet property="button_forgotpassword" destination="LJc-IY-z6D" id="Mp8-7x-Wek"/>
-                        <outlet property="constraintBottomScroll" destination="Tdo-Zi-hLa" id="kbU-i4-uvB"/>
                         <outlet property="rounded_forgotpassword" destination="oZo-Mf-INj" id="dvi-Cd-1Rc"/>
                     </connections>
                 </viewController>
@@ -258,8 +254,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56B-Un-jdc">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56B-Un-jdc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WO-IC-vcW">
                                         <rect key="frame" x="203" y="17" width="193" height="30"/>
@@ -379,13 +376,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="iud-v0-bns" firstAttribute="top" secondItem="ESK-a3-3Lb" secondAttribute="top" constant="62" id="9RO-D4-tUU"/>
-                            <constraint firstItem="56B-Un-jdc" firstAttribute="top" secondItem="hZe-YT-Ufq" secondAttribute="top" id="D9Q-q9-PoL"/>
-                            <constraint firstItem="56B-Un-jdc" firstAttribute="bottom" secondItem="ESK-a3-3Lb" secondAttribute="bottom" id="HeD-xu-vaI"/>
                             <constraint firstItem="ESK-a3-3Lb" firstAttribute="bottom" secondItem="iud-v0-bns" secondAttribute="bottom" constant="29" id="OPc-8W-qQY"/>
                             <constraint firstItem="ESK-a3-3Lb" firstAttribute="trailing" secondItem="iud-v0-bns" secondAttribute="trailing" constant="33" id="SH7-JP-PtG"/>
-                            <constraint firstItem="56B-Un-jdc" firstAttribute="leading" secondItem="ESK-a3-3Lb" secondAttribute="leading" id="aJY-ev-VUF"/>
                             <constraint firstItem="iud-v0-bns" firstAttribute="top" secondItem="7WO-IC-vcW" secondAttribute="bottom" constant="15" id="llW-Ce-J4t"/>
-                            <constraint firstItem="56B-Un-jdc" firstAttribute="trailing" secondItem="ESK-a3-3Lb" secondAttribute="trailing" id="p3u-wn-WOW"/>
                             <constraint firstItem="iud-v0-bns" firstAttribute="leading" secondItem="ESK-a3-3Lb" secondAttribute="leading" constant="32" id="xmQ-5X-D42"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ESK-a3-3Lb"/>
