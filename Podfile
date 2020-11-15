@@ -12,5 +12,6 @@ target 'instaisil' do
 
     pod 'Material', '~> 3.1.0'
     pod 'MaterialComponents/TextFields'
-    
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
 end

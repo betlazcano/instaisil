@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>934752577333-41u9mkaqbpj2ek9pcofdmk0nuq414guv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.934752577333-41u9mkaqbpj2ek9pcofdmk0nuq414guv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAABA3XP8jUefuqDz7UJ4VR5nfl96n0kpE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>934752577333</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.blg.instaisil</string>
+	<key>PROJECT_ID</key>
+	<string>instaisil-fa9ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instaisil-fa9ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:934752577333:ios:188dd07097cb769995ce7c</string>
+	<key>DATABASE_URL</key>
+	<string>https://instaisil-fa9ab.firebaseio.com</string>
+</dict>
+</plist>

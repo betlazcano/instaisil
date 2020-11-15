@@ -246,6 +246,22 @@
             </objects>
             <point key="canvasLocation" x="1827.5362318840582" y="135.32608695652175"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="BCJ-SX-wKh">
+            <objects>
+                <viewController id="LzC-GW-rwB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYm-Fg-D3h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FzI-m2-K7M"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="V1R-v8-7b0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZC-b5-8TZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2923" y="134"/>
+        </scene>
         <!--Newaccount-->
         <scene sceneID="ql3-vD-3Sc">
             <objects>
@@ -258,21 +274,26 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WO-IC-vcW">
-                                        <rect key="frame" x="203" y="17" width="193" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WO-IC-vcW" userLabel="crearCuenta">
+                                        <rect key="frame" x="250" y="16" width="124" height="33"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="NKE-P8-98X"/>
+                                            <constraint firstAttribute="height" constant="33" id="1eR-vY-OHw"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <state key="normal" title="Crear Cuenta">
                                             <color key="titleColor" red="0.97962540389999997" green="0.98990052939999995" blue="0.98972862959999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="createAccount:" destination="V07-iW-0W1" eventType="touchUpInside" id="1cU-dR-qld"/>
+                                            <segue destination="LzC-GW-rwB" kind="show" identifier="Register" id="f6K-0m-feq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstItem="wIn-2i-dCk" firstAttribute="trailing" secondItem="7WO-IC-vcW" secondAttribute="trailing" constant="18" id="0Bt-FQ-xVu"/>
-                                    <constraint firstItem="7WO-IC-vcW" firstAttribute="leading" secondItem="wIn-2i-dCk" secondAttribute="leading" constant="203" id="2eJ-ED-bHX"/>
+                                    <constraint firstItem="7WO-IC-vcW" firstAttribute="leading" secondItem="wIn-2i-dCk" secondAttribute="leading" constant="250" id="LVU-Op-owL"/>
+                                    <constraint firstItem="wIn-2i-dCk" firstAttribute="trailing" secondItem="7WO-IC-vcW" secondAttribute="trailing" constant="40" id="Wcf-Yk-92Y"/>
+                                    <constraint firstItem="7WO-IC-vcW" firstAttribute="top" secondItem="wIn-2i-dCk" secondAttribute="top" constant="60" id="i8L-ON-Vfn"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Zhl-YP-IvX"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="wIn-2i-dCk"/>
@@ -344,7 +365,7 @@
                                             <constraint firstAttribute="height" constant="34" id="qSe-Ze-XIb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Contraseña"/>
                                         </userDefinedRuntimeAttributes>
@@ -378,17 +399,20 @@
                             <constraint firstItem="iud-v0-bns" firstAttribute="top" secondItem="ESK-a3-3Lb" secondAttribute="top" constant="62" id="9RO-D4-tUU"/>
                             <constraint firstItem="ESK-a3-3Lb" firstAttribute="bottom" secondItem="iud-v0-bns" secondAttribute="bottom" constant="29" id="OPc-8W-qQY"/>
                             <constraint firstItem="ESK-a3-3Lb" firstAttribute="trailing" secondItem="iud-v0-bns" secondAttribute="trailing" constant="33" id="SH7-JP-PtG"/>
-                            <constraint firstItem="iud-v0-bns" firstAttribute="top" secondItem="7WO-IC-vcW" secondAttribute="bottom" constant="15" id="llW-Ce-J4t"/>
                             <constraint firstItem="iud-v0-bns" firstAttribute="leading" secondItem="ESK-a3-3Lb" secondAttribute="leading" constant="32" id="xmQ-5X-D42"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ESK-a3-3Lb"/>
                     </view>
                     <navigationItem key="navigationItem" id="k1U-bv-Jij"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="bsz-Xp-jZe" id="JOv-5s-T02"/>
+                        <outlet property="passwordTextField" destination="Hys-lG-0lu" id="5xh-Wg-BJx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bm-5z-SBs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="3y1-i9-csE">
                     <connections>
-                        <action selector="clickCloseKeyboard:" destination="V07-iW-0W1" id="dRF-1j-jWQ"/>
+                        <action selector="clickCloseKeyboard:" destination="V07-iW-0W1" id="WMt-4n-lbJ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

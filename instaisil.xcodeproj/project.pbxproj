@@ -16,6 +16,7 @@
 		F4067A552536350100E270E3 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4067A542536350100E270E3 /* NewViewController.swift */; };
 		F49FFA58252FB3300090BCF2 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FFA57252FB3300090BCF2 /* Gradient.swift */; };
 		F49FFA5A252FB52E0090BCF2 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */; };
+		F4AA2C4E2560A59C009F735C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4AA2C4D2560A59C009F735C /* GoogleService-Info.plist */; };
 		F4B198B82533F8B600C421D2 /* InputLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B198B72533F8B600C421D2 /* InputLogin.swift */; };
 		F4E93BB62536B52E00F22659 /* Newaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E93BB52536B52E00F22659 /* Newaccount.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		F4067A542536350100E270E3 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		F49FFA57252FB3300090BCF2 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		F49FFA59252FB52E0090BCF2 /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		F4AA2C4D2560A59C009F735C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4B198B72533F8B600C421D2 /* InputLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLogin.swift; sourceTree = "<group>"; };
 		F4CD24B12533DBF40086DCA4 /* instaisil-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instaisil-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4E93BB52536B52E00F22659 /* Newaccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newaccount.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				38B2C045252AC20600FF3F98 /* LaunchScreen.storyboard */,
 				F4067A542536350100E270E3 /* NewViewController.swift */,
 				38B2C048252AC20600FF3F98 /* Info.plist */,
+				F4AA2C4D2560A59C009F735C /* GoogleService-Info.plist */,
 				F4E93BB52536B52E00F22659 /* Newaccount.swift */,
 				F4CD24B12533DBF40086DCA4 /* instaisil-Bridging-Header.h */,
 			);
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B2C047252AC20600FF3F98 /* LaunchScreen.storyboard in Resources */,
+				F4AA2C4E2560A59C009F735C /* GoogleService-Info.plist in Resources */,
 				38B2C044252AC20600FF3F98 /* Assets.xcassets in Resources */,
 				38B2C042252AC20300FF3F98 /* Main.storyboard in Resources */,
 			);
